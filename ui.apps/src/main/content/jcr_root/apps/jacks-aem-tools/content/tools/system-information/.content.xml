@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        jcr:primaryType="cq:PageContent"
+        jcr:title="System Information"
+        sling:resourceType="granite/ui/components/shell/collectionpage"
+    >
+        <title
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="granite/ui/components/shell/title"
+            jcr:title="System Information"
+        />
+        <head jcr:primaryType="nt:unstructured">
+            <favicon
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/foundation/page/favicon"
+            />
+        </head>
+        <views jcr:primaryType="nt:unstructured">
+            <test
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/text"
+                text="Hello world"
+            />
+        </views>
+        <actions jcr:primaryType="nt:unstructured">
+            <secondary jcr:primaryType="nt:unstructured">
+                <!-- remove the 'Select All' button -->
+            </secondary>
+        </actions>
+    </jcr:content>
+</jcr:root>
