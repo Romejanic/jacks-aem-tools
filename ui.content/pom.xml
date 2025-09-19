@@ -53,7 +53,7 @@
                     <group>com.jackd</group>
                     <name>jacks-aem-tools.ui.content</name>
                     <packageType>content</packageType>
-                    <accessControlHandling>merge</accessControlHandling>
+                    <!-- <accessControlHandling>merge</accessControlHandling> -->
                     <validatorsSettings>
                         <jackrabbit-filter>
                             <options>

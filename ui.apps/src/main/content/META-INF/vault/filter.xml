@@ -2,5 +2,4 @@
 <workspaceFilter version="1.0">
     <filter root="/apps/jacks-aem-tools/clientlibs"/>
     <filter root="/apps/jacks-aem-tools/components"/>
-    <filter root="/apps/jacks-aem-tools/i18n"/>
 </workspaceFilter>

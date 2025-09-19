@@ -2,10 +2,4 @@
 <workspaceFilter version="1.0">
     <filter root="/conf/jacks-aem-tools" mode="merge"/>
     <filter root="/content/jacks-aem-tools" mode="merge"/>
-    <filter root="/content/dam/jacks-aem-tools" mode="merge">
-        <exclude pattern="/content/dam/jacks-aem-tools(/.*)?"/>
-        <include pattern="/content/dam/jacks-aem-tools/jcr:content(/.*)?"/>
-    </filter>
-    <filter root="/content/dam/jacks-aem-tools/asset.jpg" mode="merge"/>
-    <filter root="/content/experience-fragments/jacks-aem-tools" mode="merge"/>
 </workspaceFilter>
