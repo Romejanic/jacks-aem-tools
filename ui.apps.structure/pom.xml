@@ -37,17 +37,18 @@
                         <filter><root>/apps</root></filter>
                         <filter><root>/apps/jacks-aem-tools</root></filter>
                         <!-- Common overlay roots -->
-                                                <filter><root>/apps/sling</root></filter>
+                        <filter><root>/apps/sling</root></filter>
                         <filter><root>/apps/cq</root></filter>
                         <filter><root>/apps/dam</root></filter>
                         <filter><root>/apps/wcm</root></filter>
                         <filter><root>/apps/msm</root></filter>
+                        <filter><root>/apps/cq/core/content/nav/tools</root></filter>
 
                         <!-- Immutable context-aware configurations -->
                         <filter><root>/apps/settings</root></filter>
 
                         <!-- DAM folder root, will be created via repoinit -->
-                        <filter><root>/content/dam/jacks-aem-tools</root></filter>
+                        <!-- <filter><root>/content/dam/jacks-aem-tools</root></filter> -->
 
                     </filters>
                 </configuration>

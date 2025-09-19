@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
+    <!-- AEM Tools nodes -->
     <filter root="/apps/jacks-aem-tools/clientlibs"/>
     <filter root="/apps/jacks-aem-tools/components"/>
+    <!-- Overlays -->
+    <filter root="/apps/cq/core/content/nav/tools/jacks-aem-tools" />
 </workspaceFilter>

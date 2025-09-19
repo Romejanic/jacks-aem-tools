@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Jack's AEM Tools"
+    id="jacks-aem-tools">
+    <!-- List of tools -->
+    <system-information
+        jcr:primaryType="nt:unstructured"
+        jcr:title="System Information"
+        jcr:description="View general system and JVM information"
+        icon="gears"
+        id="jat-system-info"
+        href="/apps/jacks-aem-tools/content/tools/system-information.html"
+        target="_blank"
+    />
+    <http-tester
+        jcr:primaryType="nt:unstructured"
+        jcr:title="HTTP Request Tester"
+        jcr:description="Send arbitrary HTTP requests to test outbound connections"
+        icon="globeExit"
+        id="jat-http-tester"
+        href="/apps/jacks-aem-tools/content/tools/http-tester.html"
+        target="_blank"
+    />
+</jcr:root>
